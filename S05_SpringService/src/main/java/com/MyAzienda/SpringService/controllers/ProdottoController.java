@@ -56,7 +56,7 @@ public class ProdottoController {
 //	}
 	
 	/**
-	 * 2° esempio di DI -> inizializzazione del service come argomentov del costruttore
+	 * 2° esempio di DI -> inizializzazione del service come argomento del costruttore
 	 */
 //	private final ProdottoService service;
 //	
@@ -76,7 +76,7 @@ public class ProdottoController {
 	
 	/**
 	 * 3° esempio di DI -> Dependency Injection con @Autowired
-	 		Spring inietterà la dipendenza "service" per noi...quando seve *****/
+	 		Spring inietterà la dipendenza "service" per noi...quando serve *****/
 	public ProdottoController() {
 		System.out.println("start del costruttore prodottoController");
 	}

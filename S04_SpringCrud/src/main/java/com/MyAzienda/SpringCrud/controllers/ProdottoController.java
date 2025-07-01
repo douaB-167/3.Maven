@@ -33,7 +33,7 @@ public class ProdottoController {
 	}
 
 	//http://localhost:8080/api/prodotti/2
-	@GetMapping("{varId}") //pecca il paramentro id
+	@GetMapping("{varId}") //becca il paramentro id
 	public Prodotto dettaglioProdotto(@PathVariable int varId) {
 		for(int i = 0; i < prodotti.size(); i++) {
 			if(prodotti.get(i).getId() == varId) {
