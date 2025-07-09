@@ -1,6 +1,6 @@
 package com.MyAzienda.SpringJDBC.models;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Studente extends Persona {
 
