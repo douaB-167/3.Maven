@@ -6,12 +6,18 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.MyAzienda.SpringReposDAL.models.Docente;
 
 @Repository
 public class DocenteRepository implements IRepository<Docente>{
+	
+	@Autowired
+	private DataSource ds;
 
 	@Override
 	public boolean create(Docente obj) {
@@ -19,7 +25,7 @@ public class DocenteRepository implements IRepository<Docente>{
 		boolean result = false;
 		
 		try {
-			Connection conn = ConnectionSingleton.getInstance().getConnection();
+			Connection conn = ds.getConnection();
 			String query = "INSERT INTO Docente (nome, cognome, materia) VALUES"
 					+ "(?, ?, ?);";
 			
@@ -48,7 +54,7 @@ public class DocenteRepository implements IRepository<Docente>{
 		boolean result = false;
 		
 		try {
-			Connection conn = ConnectionSingleton.getInstance().getConnection();
+			Connection conn = ds.getConnection();
 			
 			int id = obj.getId();
 			Docente d = this.getById(id);
@@ -93,7 +99,7 @@ public class DocenteRepository implements IRepository<Docente>{
 		boolean result = false;
 		
 		try {
-			Connection conn = ConnectionSingleton.getInstance().getConnection();
+			Connection conn = ds.getConnection();
 			
 			String query = "DELETE FROM Docente WHERE docenteId = ?";
 			
@@ -120,7 +126,7 @@ public class DocenteRepository implements IRepository<Docente>{
 		Docente docente = null; // Inizializza a null, verrà popolato se trovato
 		
 		try {
-			Connection conn = ConnectionSingleton.getInstance().getConnection();
+			Connection conn = ds.getConnection();
 			
 			String query = "SELECT docenteId, nome, cognome, materia from Docente where docenteId = ?";
 			
@@ -149,7 +155,7 @@ public class DocenteRepository implements IRepository<Docente>{
 		// TODO Auto-generated method stub
 		List<Docente> elenco = new ArrayList<Docente>();
 		try {
-			Connection conn = ConnectionSingleton.getInstance().getConnection();
+			Connection conn = ds.getConnection();
 			String query = "SELECT docenteId, nome, cognome, materia FROM docente;";
 			//? placeholder, successivamente ti darò l'informazione
 			PreparedStatement ps = conn.prepareStatement(query);
