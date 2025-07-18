@@ -1,0 +1,139 @@
+Microsoft Windows [Versione 10.0.22631.5335]
+(c) Microsoft Corporation. Tutti i diritti riservati.
+
+Z:\>java -version
+java version "17.0.2" 2022-01-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.2+8-LTS-86)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.2+8-LTS-86, mixed mode, sharing)
+
+Z:\>java -jar C:\Users\B22-167-2025\Documents\maven\MavenProva\target\MavenProva-0.0.1-SNAPSHOT.jar
+no main manifest attribute, in C:\Users\B22-167-2025\Documents\maven\MavenProva\target\MavenProva-0.0.1-SNAPSHOT.jar
+
+Z:\>c:
+
+C:\>
+C:\>
+C:\>java -jar C:\Users\B22-167-2025\Documents\maven\MavenProva\target\MavenProva-0.0.1-SNAPSHOT.jar
+no main manifest attribute, in C:\Users\B22-167-2025\Documents\maven\MavenProva\target\MavenProva-0.0.1-SNAPSHOT.jar
+
+C:\>java -jar C:\Users\B22-167-2025\Documents\maven\MavenProva\target\MavenProva-0.0.1-SNAPSHOT.jar
+Hello Boys!
+
+C:\>java -jar C:\Users\B22-167-2025\Documents\maven\MavenProva\target\MavenProva-0.0.1-SNAPSHOT.jar
+Hello Boys!
+
+C:\>cd C:\Users\B22-167-2025\.m2
+
+C:\Users\B22-167-2025\.m2>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: 727B-E463
+
+ Directory di C:\Users\B22-167-2025\.m2
+
+04/06/2025  12:06    <DIR>          .
+04/06/2025  12:01    <DIR>          ..
+04/06/2025  13:47    <DIR>          .lemminx-maven
+04/06/2025  13:47    <DIR>          repository
+               0 File              0 byte
+               4 Directory  144.312.582.144 byte disponibili
+
+C:\Users\B22-167-2025\.m2>cd repository
+
+C:\Users\B22-167-2025\.m2\repository>cd
+C:\Users\B22-167-2025\.m2\repository
+
+C:\Users\B22-167-2025\.m2\repository>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: 727B-E463
+
+ Directory di C:\Users\B22-167-2025\.m2\repository
+
+04/06/2025  13:47    <DIR>          .
+04/06/2025  12:06    <DIR>          ..
+04/06/2025  12:24    <DIR>          aopalliance
+04/06/2025  12:04        16.771.826 archetype-catalog-central.xml
+04/06/2025  12:04                40 archetype-catalog-central.xml.sha1
+04/06/2025  13:47    <DIR>          com
+04/06/2025  12:04    <DIR>          commons-codec
+04/06/2025  12:04    <DIR>          commons-collections
+04/06/2025  12:04    <DIR>          commons-io
+04/06/2025  12:04    <DIR>          io
+04/06/2025  12:24    <DIR>          javax
+04/06/2025  12:04    <DIR>          junit
+04/06/2025  13:47    <DIR>          mysql
+04/06/2025  12:24    <DIR>          net
+04/06/2025  13:25    <DIR>          org
+04/06/2025  13:24               289 resolver-status.properties
+               3 File     16.772.155 byte
+              13 Directory  144.312.467.456 byte disponibili
+
+C:\Users\B22-167-2025\.m2\repository>cd com
+
+C:\Users\B22-167-2025\.m2\repository\com>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: 727B-E463
+
+ Directory di C:\Users\B22-167-2025\.m2\repository\com
+
+04/06/2025  13:47    <DIR>          .
+04/06/2025  13:47    <DIR>          ..
+04/06/2025  12:04    <DIR>          fasterxml
+04/06/2025  12:04    <DIR>          github
+04/06/2025  13:47    <DIR>          google
+04/06/2025  12:04    <DIR>          ibm
+04/06/2025  12:24    <DIR>          Immagina
+04/06/2025  13:47    <DIR>          mysql
+04/06/2025  12:04    <DIR>          thoughtworks
+               0 File              0 byte
+               9 Directory  144.312.451.072 byte disponibili
+
+C:\Users\B22-167-2025\.m2\repository\com>cd Immagina
+
+C:\Users\B22-167-2025\.m2\repository\com\Immagina>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: 727B-E463
+
+ Directory di C:\Users\B22-167-2025\.m2\repository\com\Immagina
+
+04/06/2025  12:24    <DIR>          .
+04/06/2025  13:47    <DIR>          ..
+04/06/2025  12:24    <DIR>          MavenProva
+               0 File              0 byte
+               3 Directory  144.312.385.536 byte disponibili
+
+C:\Users\B22-167-2025\.m2\repository\com\Immagina>cd MavenProva
+
+C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva>cd
+C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva
+
+C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: 727B-E463
+
+ Directory di C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva
+
+04/06/2025  12:24    <DIR>          .
+04/06/2025  12:24    <DIR>          ..
+04/06/2025  13:49    <DIR>          0.0.1-SNAPSHOT
+04/06/2025  13:49               282 maven-metadata-local.xml
+               1 File            282 byte
+               3 Directory  144.312.131.584 byte disponibili
+
+C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva>cd 0.0.1-SNAPSHOT
+
+C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva\0.0.1-SNAPSHOT>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: 727B-E463
+
+ Directory di C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva\0.0.1-SNAPSHOT
+
+04/06/2025  13:49    <DIR>          .
+04/06/2025  12:24    <DIR>          ..
+04/06/2025  13:49               708 maven-metadata-local.xml
+04/06/2025  13:49             2.606 MavenProva-0.0.1-SNAPSHOT.jar
+04/06/2025  13:48             1.348 MavenProva-0.0.1-SNAPSHOT.pom
+04/06/2025  13:49               209 _remote.repositories
+               4 File          4.871 byte
+               2 Directory  144.312.131.584 byte disponibili
+
+C:\Users\B22-167-2025\.m2\repository\com\Immagina\MavenProva\0.0.1-SNAPSHOT>
