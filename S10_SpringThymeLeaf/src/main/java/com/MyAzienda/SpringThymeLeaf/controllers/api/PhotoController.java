@@ -25,12 +25,12 @@ public class PhotoController {
 		list.add(new Photo(3, "./img/03.png"));
 	}
 	
-	@RequestMapping("api/photo")
+	@RequestMapping("api/photos")
 	public Iterable<Photo> getAll(){
 		return list;
 	}
 	
-	@RequestMapping("api/photo/{id}")
+	@RequestMapping("api/photos/{id}")
 	public Photo getById(@PathVariable int id) {
 		Optional<Photo> photo = ((Collection<Photo>) getAll())
 															.stream()

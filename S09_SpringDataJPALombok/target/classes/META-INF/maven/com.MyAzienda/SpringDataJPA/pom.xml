@@ -11,7 +11,7 @@
 	<groupId>com.MyAzienda</groupId>
 	<artifactId>SpringDataJPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>S08_SpringDataJPA</name>
+	<name>S09_SpringDataJPALombok</name>
 	<description>Demo Spring Boot DataJPA</description>
 	<url/>
 	<licenses>
