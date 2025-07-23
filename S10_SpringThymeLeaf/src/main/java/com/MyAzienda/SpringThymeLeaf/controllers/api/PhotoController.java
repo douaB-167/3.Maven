@@ -30,7 +30,7 @@ public class PhotoController {
 		return list;
 	}
 	
-	@RequestMapping("api/photos/{id}")
+	@RequestMapping("api/photo/{id}")
 	public Photo getById(@PathVariable int id) {
 		Optional<Photo> photo = ((Collection<Photo>) getAll())
 															.stream()
